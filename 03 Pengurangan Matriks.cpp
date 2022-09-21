@@ -17,7 +17,7 @@ int main() {
     }
   }
      // Mencetak matriks1
-   cout << "\nMasukkan matriks: " << endl;
+   cout << "\nMatriks 1: " << endl;
    for (int i = 0; i < m; ++i) {
    		for (int j = 0; j < n; ++j) {
          cout << " " << matriks1 [i][j];
@@ -34,7 +34,7 @@ int main() {
     }
   }
      // Mencetak matriks2
-   cout << "\nMasukkan matriks: " << endl;
+   cout << "\nMatriks 2: " << endl;
    for (int i = 0; i < m; ++i) {
    		for (int j = 0; j < n; ++j) {
          cout << " " << matriks2 [i][j];
