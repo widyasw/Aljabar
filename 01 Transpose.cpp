@@ -8,7 +8,7 @@ int main(){
   cin >> n;
   cout << "Masukkan elemen matriks\n";
   
-  //Menyimpan elemen matriks
+  // Menyimpan elemen matriks
   for (i = 0; i < m; i++){
     for (j = 0; j < n; j++){
       cin  >> matriks[i][j];
@@ -25,14 +25,14 @@ int main(){
         }
     }
   
-  //Menghitung transpose matriks
+  // Menghitung transpose matriks
   for (i = 0; i < m; i++){
     for (j = 0; j < n; j++){
       transpose[j][i] = matriks[i][j];
     }
   }
   
-  //Mencetak hasil transpose matriks
+  // Mencetak hasil transpose matriks
   cout << "\nHasil Transpose Matriks: \n";
   for (i = 0; i < n; i++){
     for (j = 0; j < m; j++){
